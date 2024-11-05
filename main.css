@@ -1,0 +1,224 @@
+body {
+    border: 0;
+    margin: 0;
+    background-color: #F6F2EA;
+}
+
+.salah-seafood {
+    border: 0;
+    margin: 0;
+    background-color: #F6F2EA;
+    height: 100vh;
+}
+
+.section-1 {
+    margin-left: 75px;
+    height: 100%;
+    background-image: url(images-seafood-project/salah-seafood-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+.section-1 .section-1-left {
+    float: left;
+    width: 62%;
+    height: 100%;
+}
+
+.section-1 .section-1-left .text {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    color: rgb(39, 78, 186);
+    font-size: 112px;
+    margin: 75PX 0;
+}
+
+/* .section-1 .section-1-left .button .button-style { */
+.button .button-style {
+    display: inline-block;
+    background-color: transparent;
+    color: red;
+    border: solid 3px red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    transition: all;
+    padding: 10px 24px;
+}
+
+/* .section-1 .section-1-left .button .button-style:hover { */
+.button .button-style:hover {
+    background-color: red;
+    color: white;
+}
+
+.section-1 .section-1-right {
+    float: left;
+    width: 30%;
+    margin-left: 40px;
+    padding-left: 25px;
+    padding-top: 30PX;
+}
+
+.section-1 .section-1-right .text-1 {
+    color: rgb(31, 53, 113);
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 41px;
+    font-size: 24px;
+    margin-top: 30px;
+    padding-top: 8PX;
+    padding-left: 8px;
+    padding-bottom: 25px;
+}
+
+/* .section-1 .section-1-right .text-2 { */
+.text-2 {
+    color: rgb(39, 78, 186);
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: underline;
+    padding-left: 8px;
+}
+
+.section-1 .section-1-right .text-3 {
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 8px;
+    inline-size: auto;
+}
+
+.Open-Hours {
+    padding-top: 10PX;
+    padding-bottom: 25PX;
+}
+
+/* ================================================================================ */
+/*                  section-2              */
+.section-2 {
+
+    padding-bottom: 40px;
+}
+
+.imags {
+    width: 25%;
+    background-color: aqua;
+    float: left;
+
+}
+
+.section-2 .imags img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+/* ================================================================================ */
+/*                  section-3               */
+.section-3 {
+
+    height: 100vh;
+    padding-top: 40px;
+}
+
+.section-3-left {
+    float: left;
+    width: 50%;
+    height: 70%;
+    margin-left: 30px;
+    padding-left: 40px;
+}
+
+.hist {
+    padding-bottom: 40px;
+}
+
+.section-3-right {
+    float: left;
+    width: 40%;
+    height: 70%;
+}
+
+.section-3-bottom-imags {
+    width: 25%;
+    float: left;
+}
+
+.section-3-bottom .section-3-bottom-imags img {
+    width: 47%;
+    margin-left: 40px;
+    padding-left: 40px;
+}
+
+.section-3-left-hist-p {
+    font-family: "Raleway", system-ui;
+    font-weight: 400;
+    color: rgb(31, 53, 113);
+    font-size: 16px;
+    line-height: 27px;
+    padding-left: 8px;
+    padding-bottom: 20px;
+}
+
+/* ================================================================================ */
+/*                  section-4               */
+.section-4 {
+    text-align: center;
+    margin: 30px;
+    padding: 40px;
+}
+
+.section-4 .sup-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(39, 78, 186);
+    text-decoration: underline;
+    padding-top: 30px;
+}
+
+.title {
+    font-family: "Playfair Display", system-ui;
+    font-weight: 700;
+    font-size: 64px;
+    color: rgb(39, 78, 186);
+    margin-top: 0;
+    padding-left: 8px;
+}
+
+.section-4 .menu-text {
+    float: left;
+    width: 33.33%;
+}
+
+.section-4 .menu-text .menu-text-head {
+    font-family: "Playfair Display", system-ui;
+    font-weight: 600;
+    color: rgb(39, 78, 186);
+    font-size: 16px;
+}
+
+.section-4 .menu-text .menu-text-body {
+    font-family: "Raleway", system-ui;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(31, 53, 113);
+    line-height: 27px;
+    font-size: 14px;
+}
+
+.section-4 .menu-text .menu-text-footer {
+    font-family: "Raleway", system-ui;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(234, 42, 61);
+}
